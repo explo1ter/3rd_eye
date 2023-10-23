@@ -1,5 +1,14 @@
 import socket
 from _datetime import datetime
+import pyfiglet
+
+
+print("\n" + "*" * 65)
+print(pyfiglet.figlet_format("              3rd_eye"))
+print("*\t\t\tBy Nibil Mathew\t\t\t\t*")
+print("*\t\t\tgithub:explo1ter\t\t\t*")
+print("\n" + "*" * 65)
+print("\n")
 
 
 def port_scan(target_ip):
